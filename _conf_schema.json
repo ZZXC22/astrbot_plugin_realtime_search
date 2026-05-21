@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "search_provider": { "type": "string", "default": "tavily", "enum": ["tavily"] },
+    "api_key": { "type": "string", "default": "" },
+    "top_k": { "type": "integer", "default": 5, "minimum": 1, "maximum": 10 },
+    "timeout_sec": { "type": "integer", "default": 12, "minimum": 5, "maximum": 30 },
+    "cache_ttl_sec": { "type": "integer", "default": 180, "minimum": 30 },
+    "reply_with_links_on_request_only": { "type": "boolean", "default": true }
+  },
+  "required": ["search_provider"]
+}
