@@ -1,1 +1,2 @@
-# astrbot_plugin_realtime_search
+# RealtimeSearch
+AstrBot 实时联网搜索插件（Tavily）
